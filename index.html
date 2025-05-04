@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/main.css">
+      <title>Page Title</title>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg bg-light navbar-light">
+         <img src="" class="mr-2"><a class="navbar-brand" href="#">Chicago Public Schools and Health Data</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+         <div class="collapse navbar-collapse" id="navbar-body">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item"><a class="nav-link" href="PovertyandUnemploymentPage.html">Poverty, Unemployment, and Test Scores</a></li>
+               <li class="nav-item"><a class="nav-link" href="ParentInvolvementPage.html">Parent Involvement, Graduation, and Teen Pregnancy</a></li>
+               <li class="nav-item"><a class="nav-link" href="safety.html">Safety</a></li>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <div class="container" id="bsr-wrapper">
+         <h1>Learn About Our Source:</h1>
+         <div class='my-5'></div>
+         <p>Both datasets used on this website were found on the City of Chicago Data Portal, which is linked below.  This publicly available data website contains thousands of datasets about education, environment, health and safety, infrastructure, and more in the city of Chicago.  Given that Chicago is the nearest big city to Notre Dame, we thought it would be interesting to do some data analysis about two very important issues: public health and education.  Both datasets started as JSON text which we parsed and organized into lists, and then eventually into DataFrames.</p>
+         <h2>Public Schools Dataset</h2>
+         <div class="row">
+            <div class="col-md-9">
+               <p>On the City of Chicago Data Portal, we found a rich dataset about all public schools in the Chicago area from the 2011-2012 school year.  This dataset contained 566 rows and 79 columns of data, where each row was a different school, and each column was a different characteristic of the school.  Not only did this dataset provide test scores and other data about student performance, but it also contained data about parent involvement, safety, student misconducts, and location.</p>
+            </div>
+            <div class="col"><img src="https://img.freepik.com/free-photo/book-with-green-board-background_1150-3836.jpg" class="img-fluid mr-auto d-block border-0 rounded-0 "></div>
+         </div>
+         <h2>Public Health Dataset</h2>
+         <div class="row">
+            <div class="col"><img src="https://thumbs.dreamstime.com/b/public-health-vector-illustration-society-health-control-tiny-person-concept-public-health-vector-illustration-overall-society-176909079.jpg" class="img-fluid mr-auto d-block border-0 rounded-0"></div>
+            <div class="col-md-9">
+               <p>The second dataset that we decided to analyze was on about public health statistics in Chicago from 2005-2011.  This dataset contained 77 rows and 29 columns, where each row was a different community area in Chicago, and each column was a different public health statistic for that area.  The dataset also provided statistics about poverty, housing, and education in those areas, which made it a great source to pair with the public education dataset.</p>
+            </div>
+         </div>
+         <footer class="bg-light text-light pt-5 pb-2 px-5">
+            <div class="row">
+               <div class="col-md-3">
+                  <h2 class="mb-1">Brand</h2>
+                  <p class="mb-3"><small><em>Best product ever!</em></small></p>
+                  <p> Address 1 <br> Address 2 <br> City, State ZIP </p>
+                  <p> TEL (999) 123-4567 <br> FAX (999) 321-7654 </p>
+                  <ul class="list-inline mt-5">
+                     <li class="list-inline-item"><a href="#" target="_blank" class="text-decoration-none"><i class="fa fa-fw fa-github-alt" aria-hidden="true"></i></a></li>
+                     <li class="list-inline-item py-1"><a href="#" target="_blank" class="text-decoration-none"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i></a></li>
+                     <li class="list-inline-item py-1"><a href="#" target="_blank" class="text-decoration-none"><i class="fa fa-fw fa-facebook-official" aria-hidden="true"></i></a></li>
+                  </ul>
+               </div>
+               <div class="col-md-4">
+                  <h5>Heading</h5>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item py-1 bg-transparent border-0"><a href="https://data.cityofchicago.org/Education/Chicago-Public-Schools-Progress-Report-Cards-2011-/9xs2-f89t/about_data" target="_blank">Link to Public Schools Dataset</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-4">
+                  <h5>Heading</h5>
+                  <ul class="list-group list-group-flush">
+                     <li class="list-group-item py-1 bg-transparent border-0"><a href="https://data.cityofchicago.org/Health-Human-Services/Public-Health-Statistics-Selected-public-health-in/iqnk-2tcu/about_data" target="_blank">Link to Public Health Dataset</a></li>
+                  </ul>
+               </div>
+            </div>
+            <hr>
+            <div class="row mt-4">
+            <div class="col-sm-6">
+                <p>Copyright © 20XX Brand</p>
+            </div>
+            </div>
+         </footer>
+         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><script src="js/main.js"></script>
+      </body>
+   </html>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><script src="js/main.js"></script>
+   </body>
+</html>
